@@ -197,7 +197,7 @@ public class LauncherAppState {
         DeviceProfile grid = mDynamicGrid.getDeviceProfile();
         int iconSize = grid.iconSizePx;
         if(isScreenLarge()){
-            iconSize = 107;
+            iconSize = 87;
         }
         Utilities.setIconSize(iconSize);
         grid.updateFromConfiguration(context.getResources(), width, height,
